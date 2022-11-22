@@ -1,0 +1,27 @@
+.item1 { grid-area: header;}
+.item2 { grid-area: firstblock;}
+.item3 { grid-area: secondblock;}
+.item4 { grid-area: testimonials-title;}
+.item5 { grid-area: testimonials;}
+.item6 { grid-area: pre-footer;}
+.item7 { grid-area: footer;}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+   'header'
+   'firstblock'
+   'secondblock'
+   'testimonials-title'
+   'testimonials'
+   'pre-footer'
+   'footer';
+   gap: 50px;
+
+}
+
+.grid-container > div {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
