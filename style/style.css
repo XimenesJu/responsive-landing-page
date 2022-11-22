@@ -16,12 +16,20 @@
    'testimonials'
    'pre-footer'
    'footer';
-   gap: 50px;
 
 }
 
 .grid-container > div {
   display: flex;
   justify-content: center;
+  padding: 50px;
+}
+
+.item6 {
+  background-color: orangered;
+}
+
+.item7 {
+  background-color: rgb(59, 57, 57);
   padding: 50px;
 }
