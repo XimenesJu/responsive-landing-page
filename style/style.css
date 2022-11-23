@@ -16,17 +16,45 @@
    'testimonials'
    'pre-footer'
    'footer';
+   font-family: Be Vietnam Pro;
 
 }
 
 .grid-container > div {
   display: flex;
+  padding: 50px 0;
+}
+
+.item1 {
+  justify-content: space-between;
+}
+
+.item2 {
+  justify-content: space-between;
+
+}
+
+.item3 {
+  justify-content: space-between;
+
+}
+
+.pros {
+  width: 30%;
+}
+
+.pros-list {
+  width: 50%;
+}
+
+.item4 {
   justify-content: center;
-  padding: 50px;
 }
 
 .item6 {
   background-color: orangered;
+  justify-content: space-between;
+
 }
 
 .item7 {
