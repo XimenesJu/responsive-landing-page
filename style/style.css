@@ -26,13 +26,43 @@
 }
 
 .item1 {
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item1 h1 {
+  font-size: 2rem;
+  color: rgb(2, 2, 108);
+}
+
+.menu {
+  display: flex;
+  
+}
+
+.menu h2 {
+  padding: 0px 10px;
+  align-items: center;
+  color: rgb(2, 2, 108);
+}
+
+.item1 button {
+  text-decoration: none;
+  background-color: orangered;
+  color: #ffffff;
+  border-color: transparent;
+  border-radius: 25px;
+  padding: 10px 10px;
+  font-family: Be Vietnam Pro;
 }
 
 .item2 {
   justify-content: space-between;
 
 }
+
+
 
 .item3 {
   justify-content: space-between;
