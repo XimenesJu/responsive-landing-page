@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <title>Responsive Landing Page</title>
   </head>
   <body>
@@ -21,12 +22,12 @@
           <h1>manage</h1>
         </div>
         <div class="menu">
-          <h2>Pricing</h2>
-          <h2>Product</h2>
-          <h2>About</h2>
-          <h2>Us</h2>
-          <h2>Careers</h2>
-          <h2>Community</h2>
+          <h4>Pricing</h4>
+          <h4>Product</h4>
+          <h4>About</h4>
+          <h4>Us</h4>
+          <h4>Careers</h4>
+          <h4>Community</h4>
         </div>
         <div>
           <button>Get Started</button>
@@ -78,20 +79,102 @@
         What they’ve said
       </div>
 
-      <div class="item5">
-        Anisha Li “Manage has supercharged our team’s workflow. The ability to
-        maintain visibility on larger milestones at all times keeps everyone
-        motivated.” Ali Bravo “We have been able to cancel so many other
-        subscriptions since using Manage. There is no more cross-channel
-        confusion and everyone is much more focused.” Richard Watts “Manage
-        allows us to provide structure and process. It keeps us organized and
-        focused. I can’t stop recommending them to everyone I talk to!” Shanai
-        Gough “Their software allows us to track, manage and collaborate on our
-        projects from anywhere. It keeps the whole team in-sync without being
-        intrusive.”
+      <section class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+          <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+            <h4>Anisha Li</h4>
+            <p>
+              “Manage has supercharged our team’s workflow. The ability to maintain
+              visibility on larger milestones at all times keeps everyone
+              motivated.”
+            </p>
+            <div>
+            
+            <div class="carousel__snapper">
+              <a href="#carousel__slide4" class="carousel__prev"></a>
+              <a href="#carousel__slide2" class="carousel__next">
+                Go to next slide
+              </a>
+            </div>
+          </li>
+          <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+            <h4>Ali Bravo</h4>
+        <p>
+          “We have been able to cancel so many other subscriptions since using
+          Manage. There is no more cross-channel confusion and everyone is much
+          more focused.”
+        </p>
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide1" class="carousel__prev">
+              Go to previous slide
+            </a>
+            <a href="#carousel__slide3" class="carousel__next">
+              Go to next slide
+            </a>
+          </li>
+          <li id="carousel__slide3" tabindex="0" class="carousel__slide"><h4>Richard Watts</h4>
+            <p>
+              “Manage allows us to provide structure and process. It keeps us
+              organized and focused. I can’t stop recommending them to everyone I
+              talk to!”
+            </p>
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide2" class="carousel__prev">
+              Go to previous slide
+            </a>
+            <a href="#carousel__slide4" class="carousel__next">
+              Go to next slide
+            </a>
+          </li>
+          <li id="carousel__slide4" tabindex="0" class="carousel__slide"><h4>Shanai Gough</h4>
+            <p>
+              “Their software allows us to track, manage and collaborate on our
+              projects from anywhere. It keeps the whole team in-sync without being
+              intrusive.”
+            </p>
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide3" class="carousel__prev">
+              Go to previous slide
+            </a>
+            <a href="#carousel__slide1" class="carousel__next">
+              Go to first slide
+            </a>
+          </li>
+        </ol>
+        <aside class="carousel__navigation">
+          <ol class="carousel__navigation-list">
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide1" class="carousel__navigation-button">
+                Go to slide 1
+              </a>
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide2" class="carousel__navigation-button">
+                Go to slide 2
+              </a>
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide3" class="carousel__navigation-button">
+                Go to slide 3
+              </a>
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide4" class="carousel__navigation-button">
+                Go to slide 4
+              </a>
+            </li>
+          </ol>
+        </aside>
+      </section>
 
-        <button>Get Started</button>
+      <div class="w3-content">
+        
+        
+        
+        
       </div>
+
+      <button class="testimonials-btn">Get Started</button>
 
       <div class="item6">
         Simplify how your team works today.
