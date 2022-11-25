@@ -125,6 +125,19 @@ html, body, div, button, h1, h2, h3, h4, h5, h6 {
 .pros {
   width: 30%;
   
+  
+}
+
+.pros h1 {
+  font-weight: 600;
+  font-family: Be Vietnam Pro;
+
+}
+
+.pros p {
+  width: 50%;
+  text-align: left;
+  margin-top: 5%;
 }
 
 .pros-list {
@@ -157,20 +170,19 @@ html, body, div, button, h1, h2, h3, h4, h5, h6 {
 
 .item4 {
   justify-content: center;
+  
+}
+
+.item4 h1 {
+  text-align: center;
   color: rgb(2, 2, 108);
-  font-size: 1.8rem;
   font-weight: 600;
+  margin-top: 10%;
+  font-family: Be Vietnam Pro;
+  border-bottom: 1px solid orangered;
+
 }
 
-.item5 {
-  justify-content: space-between;
-  align-items: flex-start;
-  color: rgb(2, 2, 108);
-}
-
-.item5 > div {
-  padding: 0 1%;
-}
 
 .testimonials-btn {
   justify-self: center;
@@ -280,8 +292,7 @@ section {
   display: flex;
   justify-self: center;
   width: 50%;
-  margin: 0 auto;
-  padding: 0 1.25rem;
+  /* padding: 0 1.25rem; */
   font-family: Be Vietnam Pro;
 
   /* font-family: 'Lato', sans-serif; */
