@@ -30,7 +30,7 @@
           <h4>Community</h4>
         </div>
         <div>
-          <button>Get Started</button>
+          <input type="button" value="Get Started">
         </div>
       </div>
 
@@ -40,7 +40,7 @@
           <p>
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the larger team goals in view.</p>
-          <button>Get Started</button>
+          <input type="button" value="Get Started">
         </div>
         <div class="item2-img">
           <img src="/images/illustration-intro.svg" width="100%">
@@ -188,7 +188,9 @@
           </aside>
         </section>
 
-        <button class="testimonials-btn">Get Started</button>
+        <div class="testimonials-btn">
+          <input type="button" name="testimonials-btn" value="Get Started">
+        </div>
 
         <div class="item6">
           <h2>Simplify how your team works today.</h2>
@@ -221,11 +223,17 @@
         </div>
 
         <div class="input-copyright">
-          <div class="input">
+
+          <form name="input" action="" method="get">
+            <input type="text" name="email"
+              placeholder="youremail@youremail.com">
+            <input type="button" name="coprightbtn" value="Get Started">
+          </form>
+
+          <!-- <div class="input">
             <div class="input-box"><input type="text"/></div>
             <div class="input-button"><button>Go</button></div>
-          </div>
-
+          </div> -->
           <div class="copyright">
             <h6>Copyright 2022. All Rights Reserved</h6>
           </div>
