@@ -1,7 +1,27 @@
-html, body, div, button, h1, h2, h3, h4, h5, h6 {
-  font-family: Be Vietnam Pro;
-
+* {
+  box-sizing: border-box;
+  scrollbar-color: transparent transparent; /* thumb and track color */
+  scrollbar-width: 0px;
 }
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: none;
+}
+
+* {
+  -ms-overflow-style: none;
+}
+
+
 
 .item1 { grid-area: header;}
 .item2 { grid-area: firstblock;}
@@ -52,7 +72,6 @@ a[name="testimonials-btn"] {
    'button'
    'pre-footer'
    'footer';
-   font-family: Be Vietnam Pro;
 
 }
 
@@ -76,7 +95,8 @@ a[name="testimonials-btn"] {
 
 .menu {
   display: flex;
-  
+  font-family: Be Vietnam Pro;
+
 }
 
 .menu h4 {
@@ -119,30 +139,15 @@ a[name="testimonials-btn"] {
 }
 
 .item2-img {
-  width: 50%;
+  width: 40%;
   margin-right: 5%;
 }
 
-.item2-text button {
-  text-decoration: none;
-  background-color: rgb(228, 90, 39);
-  color: #ffffff;
-  border-color: transparent;
-  border-radius: 25px;
-  padding: 10px 10px;
-  font-family: Be Vietnam Pro;
+.item2-btn {
+ 
   margin-top: 10%;
   width: 20%;
-  cursor: pointer;
-
 }
-
-.item2-text button:hover{
-  background-color: #ffffff;
-  color: rgb(228, 90, 39);
-  border: 2px solid rgb(228, 90, 39);
-}
-
 
 .item3 {
   font-family: Be Vietnam Pro;
@@ -154,8 +159,7 @@ a[name="testimonials-btn"] {
 
 .pros {
   width: 30%;
-  
-  
+
 }
 
 .pros h1 {
@@ -212,6 +216,8 @@ a[name="testimonials-btn"] {
   border-bottom: 1px solid rgb(228, 90, 39);
 
 }
+
+
 
 
 .testimonials-btn {
@@ -302,6 +308,8 @@ a[name="testimonials-btn"] {
   flex-wrap: wrap;
   width: 20%;
   padding-right: 5%;
+  font-family: Be Vietnam Pro;
+
   
 }
 
@@ -330,6 +338,8 @@ a[name="testimonials-btn"] {
 form {
   display: flex;
   flex-direction: row;
+  font-family: Be Vietnam Pro;
+
 }
 
 input[type=text] {
@@ -352,6 +362,8 @@ input[type=text]:focus {
 .copyright h6 {
   text-align: center;
   color: #ffffff;
+  font-family: Be Vietnam Pro;
+
 }
 
 
@@ -434,34 +446,10 @@ section {
   display: flex;
   justify-self: center;
   width: 50%;
-  /* padding: 0 1.25rem; */
-  font-family: Be Vietnam Pro;
 
-  /* font-family: 'Lato', sans-serif; */
 }
 
-* {
-  box-sizing: border-box;
-  scrollbar-color: transparent transparent; /* thumb and track color */
-  scrollbar-width: 0px;
-}
 
-*::-webkit-scrollbar {
-  width: 0;
-}
-
-*::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-*::-webkit-scrollbar-thumb {
-  background: transparent;
-  border: none;
-}
-
-* {
-  -ms-overflow-style: none;
-}
 
 ol, li {
   list-style: none;
@@ -475,7 +463,6 @@ ol, li {
   margin-top: 10%;
   filter: drop-shadow(0 0 10px #0003);
   perspective: 10px;
-  font-family: Be Vietnam Pro;
 
 }
 
@@ -504,6 +491,8 @@ ol, li {
   justify-self: center;
   text-align: center;
   color: rgb(2, 2, 108);
+  font-family: Be Vietnam Pro;
+
 
 }
 
@@ -520,16 +509,6 @@ ol, li {
 .carousel__slide:nth-child(even) {
   background-color: transparent;
 }
-
-/* .carousel__slide:before {
-  content: counter(item);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate3d(-50%,-40%,70px);
-  color: #fff;
-  font-size: 2em;
-} */
 
 .carousel__snapper {
   position: absolute;
