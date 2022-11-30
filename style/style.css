@@ -118,15 +118,13 @@ a[name="testimonials-btn"] {
 }
 
 .item2-text {
-  
-  width: 50%;
+    width: 50%;
 }
 
 .item2-text h1 {
   font-weight: 600;
   width: 60%;
   text-align: left;
-
 }
 
 .item2-text p {
@@ -141,7 +139,6 @@ a[name="testimonials-btn"] {
 }
 
 .item2-btn {
- 
   margin-top: 10%;
   width: 20%;
 }
@@ -151,18 +148,15 @@ a[name="testimonials-btn"] {
   color: rgb(2, 2, 108);
   justify-content: space-around;
   align-content: center;
-
 }
 
 .pros {
   width: 30%;
-
 }
 
 .pros h1 {
   font-weight: 600;
   font-family: Be Vietnam Pro;
-
 }
 
 .pros p {
@@ -201,7 +195,6 @@ a[name="testimonials-btn"] {
 
 .item4 {
   justify-content: center;
-  
 }
 
 .item4 h1 {
@@ -211,7 +204,6 @@ a[name="testimonials-btn"] {
   margin-top: 10%;
   font-family: Be Vietnam Pro;
   border-bottom: 1px solid rgb(228, 90, 39);
-
 }
 
 
@@ -294,7 +286,6 @@ section {
   display: flex;
   justify-self: center;
   width: 50%;
-
 }
 
 
@@ -311,7 +302,6 @@ ol, li {
   margin-top: 10%;
   filter: drop-shadow(0 0 10px #0003);
   perspective: 10px;
-
 }
 
 .carousel__viewport {
@@ -340,8 +330,6 @@ ol, li {
   text-align: center;
   color: rgb(2, 2, 108);
   font-family: Be Vietnam Pro;
-
-
 }
 
 .carousel__slide h4 {
@@ -429,7 +417,6 @@ ol, li {
   border-radius: 50%;
   font-size: 0;
   outline: 0;
-  
 }
 
 .carousel::before,
@@ -483,14 +470,12 @@ ol, li {
   justify-content: center;  
   color: #ffffff;
   height: 50vh;
-
 }
 
 .item6 h2 {
   font-family: Be Vietnam Pro;
   margin-right: 10% ;
   align-self: center;
-
 }
 
 .item6 button { 
@@ -510,7 +495,6 @@ ol, li {
   color: #ffffff;
   border: 2px solid #ffffff;
   cursor: pointer;
-
 }
 
 .item7 {
@@ -519,7 +503,6 @@ ol, li {
   background-color: rgb(59, 57, 57);
   padding: 50px;
   height: 50vh;
-
 }
 
 .footer-logo {
@@ -530,12 +513,10 @@ ol, li {
   width: 40%;
   color: #ffffff ;
   text-align: center;
-
 }
 
 .footer-logo h1 {
   font-family: Be Vietnam Pro;
-
 }
 
 .social {
@@ -545,7 +526,6 @@ ol, li {
 .social img {
   margin: 2%;
   cursor: pointer;
-
 }
 
 .footer-menu  {
@@ -557,8 +537,6 @@ ol, li {
   width: 20%;
   padding-right: 5%;
   font-family: Be Vietnam Pro;
-
-  
 }
 
 .footer-menu > div {
@@ -569,7 +547,6 @@ ol, li {
 .footer-menu div:hover{
  color: rgb(228, 90, 39);
  cursor: pointer;
-
 }
 
 .input-copyright {
@@ -578,7 +555,6 @@ ol, li {
   width: 40%;
   justify-content: center;
   align-items:center ;
-   
 }
 
 
@@ -587,7 +563,6 @@ form {
   display: flex;
   flex-direction: row;
   font-family: Be Vietnam Pro;
-
 }
 
 input[type=text] {
@@ -597,20 +572,16 @@ input[type=text] {
   transition: 0.2s;
   outline: none;
   box-sizing: border-box;
-
 }
 
 input[type=text]:focus {
   border: 2px solid rgb(228, 90, 39);
   box-sizing: border-box;
-
-
 }
 
 .copyright h6 {
   text-align: center;
   color: #ffffff;
   font-family: Be Vietnam Pro;
-
 }
 
