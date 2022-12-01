@@ -1,7 +1,7 @@
 function clickMenu() {
-  if (menu-mobile.style.display == 'block') {
-    menu-mobile.style.display = 'none'
+  if (menumobile.style.display == 'block') {
+    menumobile.style.display = 'none'
   } else {
-    menu-mobile.style.display = 'block'
+    menumobile.style.display = 'block'
   }
 }
