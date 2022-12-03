@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Landing Page</title>
     <link rel="stylesheet" type="text/css" href="style/reset.css" />
+
+
     <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link rel="stylesheet" type="text/css" href="style/media-query.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,24 +19,30 @@
     <link rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
       />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" /> -->
   </head>
   <body onresize="sizeChanged()">
     <div class="grid-container">
       <div class="item1">
+        <span id="burguer" class="material-symbols-outlined"
+          onclick="clickMenu()">
+          menu
+        </span>
         <div>
           <h1>manage</h1>
+
         </div>
-        <div id="menumobile" class="menu" onclick="clickMenu()">
-          <h4>Pricing</h4>
-          <h4>Product</h4>
-          <h4>About</h4>
-          <h4>Us</h4>
-          <h4>Careers</h4>
-          <h4>Community</h4>
-        </div>
+
+        <ul id="menumobile" class="menu">
+          <li>Pricing</li>
+          <li>Product</li>
+          <li>About</li>
+          <li>Us</li>
+          <li>Careers</li>
+          <li>Community</li>
+        </ul>
         <div>
-          <input type="button" value="Get Started">
+          <input class="btn1" type="button" value="Get Started">
         </div>
       </div>
 
