@@ -5,6 +5,7 @@
   scrollbar-color: transparent transparent;
   /* thumb and track color */
   scrollbar-width: 0px;
+
 }
 
 *::-webkit-scrollbar {
@@ -18,6 +19,34 @@
 *::-webkit-scrollbar-thumb {
   background: transparent;
   border: none;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  font-family: Be Vietnam Pro;
+  color: rgb(2, 2, 108);
+  text-align: left;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-right: 5%;
+  color: #ffffff;
+  background-color: rgb(228, 90, 39);
+  border-radius: 50%;
+  justify-self: center;
+  align-self: center;
+  line-height: 1.5rem;
+  padding: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: justify;
+
 }
 
 .item1 {
@@ -100,129 +129,100 @@ a[name="testimonials-btn"] {
   padding: 50px 0;
 }
 
-.item1 {
-  justify-content: space-evenly;
-}
-
-.item1 h1 {
-  text-align: left;
-  font-size: 1.6rem;
-  color: rgb(2, 2, 108);
-  font-weight: 900;
-  font-family: Be Vietnam Pro;
-
-}
-
-.menu {
-  display: flex;
-  font-family: Be Vietnam Pro;
-
-}
-
-.menu h4 {
-  padding: 0px 10px;
+header {
+  display: inline-flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  color: rgb(2, 2, 108);
+  padding: 5%;
 }
 
-.menu h4:hover {
+
+
+#burguer {
+  display: none;
+}
+
+nav ul {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: rgb(2, 2, 108);
+  font-family: Be Vietnam Pro;
+}
+
+nav ul li {
+  margin: 5%;
+}
+
+.menu li:hover {
   color: rgb(228, 90, 39);
   cursor: pointer;
 }
 
-.item2 {
+section.item2 {
   font-family: Be Vietnam Pro;
   color: rgb(2, 2, 108);
   flex-direction: row;
-  justify-content: space-around;
-  text-align: left;
-  margin-left: 5%;
-
+  justify-content: space-between;
+  margin-top: 10%;
 }
 
 .item2-text {
-  width: 50%;
+  width: 60%;
 }
 
 .item2-text h1 {
-  font-weight: 600;
   width: 60%;
-  text-align: left;
 }
 
 .item2-text p {
-  width: 45%;
-  margin-top: 5%;
-  text-align: left;
+  width: 60%;
+  margin-top: 10%;
 }
 
 .item2-img {
   width: 40%;
-  margin-right: 5%;
 }
 
 .item2-btn {
   margin-top: 10%;
-  width: 20%;
 }
 
-.item3 {
+section.item3 {
   font-family: Be Vietnam Pro;
   color: rgb(2, 2, 108);
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
+  margin-top: 10%;
 }
 
 .pros {
   width: 30%;
 }
 
-.pros h1 {
-  font-weight: 600;
-  font-family: Be Vietnam Pro;
-}
+
 
 .pros p {
-  width: 50%;
-  text-align: left;
-  margin-top: 5%;
+  width: 100%;
+  margin-top: 10%;
+  font-size: 1rem;
+
 }
 
 .pros-list {
-  align-items: center;
-  width: 40%;
-  color: rgb(2, 2, 108);
+  width: 50%;
 }
 
 .pro1,
 .pro2,
 .pro3 {
   margin-bottom: 5%;
-  align-self: center;
   display: flex;
-  flex-direction: row;
 }
 
-.pro1 h3,
-.pro2 h3,
-.pro3 h3 {
-  margin-right: 5%;
-  color: #ffffff;
-  background-color: rgb(228, 90, 39);
-  border-radius: 50%;
-  text-align: center;
-  padding: 2.5% 4%;
-}
-
-.pro1 p,
-.pro2 p,
-.pro3 p {
-  text-align: left;
-}
-
-
-
-.item4 {
+section.item4 {
   justify-content: center;
 }
 
@@ -231,8 +231,10 @@ a[name="testimonials-btn"] {
   color: rgb(2, 2, 108);
   font-weight: 600;
   margin-top: 10%;
+  padding-bottom: 2%;
+  font-size: 2rem;
   font-family: Be Vietnam Pro;
-  border-bottom: 1px solid rgb(228, 90, 39);
+  border-bottom: 5px solid rgb(228, 90, 39);
 }
 
 
@@ -627,8 +629,10 @@ input[type=text]:focus {
 }
 
 .copyright h6 {
+  margin-top: 5%;
   text-align: center;
-  color: #ffffff;
+  color: #b5b1b1;
+  font-size: 12px;
   font-family: Be Vietnam Pro;
 }
 
