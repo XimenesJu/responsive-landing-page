@@ -516,30 +516,28 @@ p {
   display: flex;
   background-color: rgb(228, 90, 39);
   justify-content: center;
-  color: #ffffff;
   height: 50vh;
 }
 
-.item6 h2 {
-  font-family: Be Vietnam Pro;
+.item6 h1 {
+  color: #ffffff;
   margin-right: 10%;
   align-self: center;
 }
 
-.item6 button {
+input.item6-btn {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: rgb(228, 90, 39);
   display: flex;
   align-self: center;
   text-align: center;
-  text-decoration: none;
-  background-color: #ffffff;
-  padding: 10px 10px;
-  color: rgb(228, 90, 39);
   border-color: transparent;
   border-radius: 25px;
   font-family: Be Vietnam Pro;
 }
 
-.item6 button:hover {
+input.item6-btn:hover {
   background-color: rgb(228, 90, 39);
   color: #ffffff;
   border: 2px solid #ffffff;
@@ -565,7 +563,9 @@ p {
 }
 
 .footer-logo h1 {
+  color: #ffffff;
   font-family: Be Vietnam Pro;
+  align-self: center;
 }
 
 .social {
