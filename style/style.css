@@ -577,23 +577,21 @@ input.item6-btn:hover {
   cursor: pointer;
 }
 
-.footer-menu {
+nav.footer-menu {
   display: flex;
-  justify-content: space-evenly;
-  align-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 20%;
   padding-right: 5%;
   font-family: Be Vietnam Pro;
 }
 
-.footer-menu>div {
+.footer-menu>ul {
+  flex-wrap: wrap;
   margin: 5%;
   color: #ffffff;
 }
 
-.footer-menu div:hover {
+.footer-menu ul li:hover {
   color: rgb(228, 90, 39);
   cursor: pointer;
 }
