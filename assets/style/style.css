@@ -138,27 +138,42 @@ header {
   padding: 5%;
 }
 
+.logo {
+  width: 10%;
+}
 
+#burguer {
 
-/* #burguer {
-  display: none;
-} */
+  display: hidden;
+
+}
+
+.menu {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
 
 nav ul {
   display: inline-flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   color: rgb(2, 2, 108);
   font-family: Be Vietnam Pro;
 }
 
 nav ul li {
   margin: 5%;
+  font-size: 1rem;
 }
 
 .menu li:hover {
   color: rgb(228, 90, 39);
   cursor: pointer;
+}
+
+.btn1 {
+  width: 10%;
 }
 
 section.item2 {
