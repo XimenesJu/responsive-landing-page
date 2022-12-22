@@ -1,5 +1,5 @@
 # responsive-landing-page  
-  This project is a challenge from the Front End Mentor website.   
+  This project is a challenge from the [Front End Mentor](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5) website.   
   
 I choose this project to study about media queries and how to build an exclusive mobile layout that adjust to any size of screen.  
 .  
